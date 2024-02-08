@@ -1,8 +1,9 @@
 import { InputHTMLAttributes } from "react"
+import { cn } from "../lib/utils"
 
-function Input({...props}: InputHTMLAttributes<HTMLInputElement>) {
+function Input({className, ...props}: InputHTMLAttributes<HTMLInputElement> & {className?: string}) {
     return(
-        <input className="block w-full border border-rose-400 rounded p-3" {...props}/>
+        <input className={cn('block w-full border border-rose-400 rounded p-3', className)} {...props}/>
     )
 }
 export default Input

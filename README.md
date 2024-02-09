@@ -1,30 +1,9 @@
-# React + TypeScript + Vite
+# Calculadora de IMC
+## Codificado em JS, Typescript, React, tailwind e Vite
+Página com Calculadora de IMC desenvolvida com React, JS, Typescript e Vite, estilizada usando Tailwind.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema completo em que através do input se informa o peso e a altura e o sistema retorna de forma clara o valor de peso e altura preenchidos, o valor do IMC e em qual categoria dentro de "Muito abaixo do peso" à "Obesidade Grau 3" o usuário se encaixa.
 
-Currently, two official plugins are available:
+Sistema responsivo para uso tanto em desktop como mobile.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Link do App: https://calculadora-imc-theta-dusky.vercel.app/
